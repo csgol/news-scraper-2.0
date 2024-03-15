@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>News about {{ company }}</title>
+    </head>
+<body>
+    <h1>News about {{ company }}</h1>
+    {% for article in articles %}
+        <div>
+            <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+            <p>{{ article.description }}</p>
+        </div>
+        {% else %}
+        <p>No news found for this company.</p>
+    {% endfor %}
+    <a href="/">Search again</a>
+</body>
+</html>
