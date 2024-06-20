@@ -8,4 +8,4 @@
 
 ## import the keys into news-scraper.py & install flask & requests by running 'pip install requests flask'
 
-## To run the program in terminal 'python3 news-scraper.py'# news-scraper-flask
+## To run the program in terminal 'python3 news-scraper.py'
